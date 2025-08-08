@@ -1,0 +1,5 @@
+
+{
+  "name": "Syrian Passport Data Extractor",
+  "description": "An application to extract structured information from Syrian passport images using AI. Upload an image to automatically parse fields like name, passport number, dates, and MRZ code."
+}

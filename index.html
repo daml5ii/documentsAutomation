@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/passport.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syrian Passport Data Extractor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#0D9488', // Teal-600
+              'brand-secondary': '#14B8A6', // Teal-500
+              'base-100': '#1F2937', // Gray-800
+              'base-200': '#374151', // Gray-700
+              'base-300': '#4B5563', // Gray-600
+              'text-primary': '#F9FAFB', // Gray-50
+              'text-secondary': '#D1D5DB', // Gray-300
+            },
+          },
+        },
+      };
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.12.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
